@@ -12,9 +12,9 @@ pipeline {
                 echo 'Good bye'
             }
         }
-        stage('Bye') {
+        stage('sh') {
             steps {
-                echo 'Good bye'
+                sh 'ls -la'
             }
         }
     }
