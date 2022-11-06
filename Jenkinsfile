@@ -17,7 +17,7 @@ pipeline {
                 sh 'ls -la'
             }
         }
-        stage('Brange') {
+        stage('Branch') {
             steps {
                 echo "$GIT_BRANCH"
             }
